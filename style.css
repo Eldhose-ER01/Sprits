@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    background-color: #009b4e;;
+    position: fixed;
+    z-index: 1;
+}
+.nav-logo{
+    width: 15%;
+    padding-top: 20px;
+    padding-left: 45px;
+}
+.navbar{
+width: 40%;
+padding-top: 34px;
+padding-left: 7px
+}
+.navbar li{
+display: inline;
+padding-left: 40px;
+font-weight: bold;
+color: white;
+font-size: 15px;
+font-family:'Kanit', sans-serif;
+}
+.navbar ul{
+      margin-left: -75px;
+}
+.navbar li:hover
+{
+    color: black;
+}
+.nav-icons{
+    width: 45%;
+    padding-top: 34px;
+    padding-left: 7px;    
+}
+.nav-icons li{
+    
+    width: 23px;
+    padding-right: 23px;
+    cursor: pointer;    
+}
+.nav-icons ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding-right: 49px;
+}
+.icon-hover:hover{
+  scale: 1.2;
+  transition: 2s;
+}
+
+.contact{
+    width: 23px;
+    padding-left: 21px;
+}
+.section-1{
+    min-width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    overflow: hidden;
+}
+.section-image{
+ width: 50%;
+ height: 87vh;
+ object-fit: cover;
+}
+.section-image img{
+    width: 82%;
+    top: 20px;
+    padding-top: 111px;
+}
+.section-text{
+    width: 50%;
+    position: absolute;
+    top:35%;
+    left: 50%;
+}
+.section-text h1{
+  color: rgb(0,167,74);
+  line-height: 1.0em;
+  font-size: 68.5px;
+  text-align: left;
+  font-weight: bold;
+  font-family:'Sora', sans-serif;
+}
+.section-text img{
+   padding-top: 13px;
+}
+.section-button{
+   margin-top: 44px;
+   margin-left: 13px;
+}
+
+.section-button button{
+   width: 188px;
+   height: 45px;
+   background-color: rgb(255,209,0);
+   color: black;
+   border-radius: 0;
+   border: none;
+   font-size: 15px;
+   font-weight: bold;
+}
+.section-button button:hover{
+    color: #009b4e;
+    background-color: white;
+}
+.section-2{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    padding-top: 38px;
+}
+.main-video{
+    width: 50%;
+    padding-left: 129px;
+}
+.message-icon{
+    padding-left: 79%;
+    margin-top: 9px;
+}
+.main-content{
+    width: 50%;
+    padding-right: 106px;
+}
+.main-content h1{
+    font-size: 52.0px;
+    font-family:'Archivo Black', sans-serif; 
+}
+.main-content h2{
+    font-size:24px;
+    font-family:'Archivo Black', sans-serif ;
+    padding-top: 10px;
+}
+.section-button button{
+    font-size: 18px;
+}
+.section-2 .section-button{
+    margin-top: 23px;
+    margin-left: 1px
+}
+.section-3{
+    width: 100%;
+    height: 445px;
+    background-color: white;
+    display: flex;
+}
+.section3-header{
+    width: 50%;
+    padding-left: 131px;
+    padding-top: 115px;
+}
+.section3-header img{
+    width: 112%;     
+}
+.section3 image{
+    width: 50%;
+}
+.section3-image img{
+    width: 73%;
+    padding-left: 195px;
+}
+.footer{
+    max-width: 100%;
+    height: 450px;
+    background-color: #009b4e;
+    padding-left: 100px;
+}
+.footer-main{
+    width: 100%;
+    display: flex;
+}
+.footer-logo{
+    width: 30%;
+    height: 300px;
+}
+.footer-logo img{
+    width: 56%;
+    margin-top: 105px;
+    margin-left: 37%;
+   
+}
+.footer-heading{
+    width: 30%;
+    height: 300px;
+}
+.footer-heading p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    padding-left: 82px;
+    padding-top: 64px;
+}
+.footer-heading li{
+    width: 29px;
+    cursor: pointer;
+    padding-left: 4px;   
+       
+}
+.footer-heading ul{
+    display: flex;
+    list-style: none;
+    padding-left: 75px;
+    padding-top: 41px;
+}
+.footer-items{
+    width: 60%;
+    height: 300px;
+}
+.footer-items ul{
+    padding-left: 18%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 64px;
+}
+.footer-items li{
+    color: white;
+    font-size: 14px;
+    font-family: 'Archivo Black', sans-serif;
+    line-height:2.7;
+    font-weight: bold;
+}
+.footer-end{
+   width: 100%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.footer-end p{
+    margin-right: 94px;
+    padding-top: 35px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 14px;
+    color: white;
+    letter-spacing: -1px;
+    cursor: pointer;
+}
+.footer-end p:hover {
+    color: black;
+}
+.span{
+    border-right: solid 1px white;
+    padding-right: 10px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    line-height: 70px;
+    cursor: pointer;
+}
+.span-1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    line-height: 70px;
+    cursor: pointer;
+}
+.span:hover{
+    color: black;
+}
+.span-1:hover{
+    color: black;
+}
+
